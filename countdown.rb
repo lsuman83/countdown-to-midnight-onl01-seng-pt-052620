@@ -14,7 +14,7 @@ end
 def countdown_with_sleep (number)
   
   while number > 0 do
-    sleep(5.seconds)
+    sleep(5)
     puts "#{number} SECOND(S)!"
     num -= 1
   end
